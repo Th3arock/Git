@@ -2,6 +2,7 @@ public class Car {
     private String make;
     private String model;
     private String color;
+    private String engine;
     private int year;
     public Car(String make, String model, int year) {
         this.make = make;
