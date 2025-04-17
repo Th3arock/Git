@@ -1,8 +1,8 @@
 public class Car {
     private String make;
-    private String model;
+    private String tire;
     private int year;
-    public Car(String make, String model, int year) {
+    public Car(String make, String tire, int year) {
         this.make = make;
     }
 
@@ -11,11 +11,11 @@ public class Car {
         this.make = make;
     }
 
-    public String getModel() {
-        return model;
+    public String getTire() {
+        return tire;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setTire(String tire) {
+        this.tire = tire;
     }
 }
