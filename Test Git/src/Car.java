@@ -1,5 +1,7 @@
 public class Car {
     private String make;
+    private String model;
+    private String color;
     private String tire;
     private int year;
     public Car(String make, String tire, int year) {
